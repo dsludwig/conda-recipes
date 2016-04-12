@@ -1,0 +1,20 @@
+diff --git setup.py setup.py
+index 1e38fdf..7892ad3 100644
+--- setup.py
++++ setup.py
+@@ -125,7 +125,6 @@ setup(
+         "Topic :: Software Development :: Libraries :: Python Modules"],
+ 
+     packages = [
+-        'acouchbase',
+         'couchbase',
+         'couchbase.views',
+         'couchbase.iops',
+@@ -134,7 +133,6 @@ setup(
+         'couchbase.tests.cases',
+         'gcouchbase',
+         'txcouchbase',
+-        'acouchbase'
+     ],
+     package_data = pkgdata,
+     tests_require = [ 'nose', 'testresources>=0.2.7' ],
